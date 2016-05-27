@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover event</title>
+    <link rel="stylesheet" type="text/css" href="./content/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./content/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./content/css/slideshow.css" />
+</head>
+<body>
+<div class="container">
+    <img class="thumb" src="./content/img/img1-tn.jpg" />
+    <img class="thumb" src="./content/img/img2-tn.jpg" />
+    <img class="thumb" src="./content/img/img3-tn.jpg" />
+    <img class="thumb" src="./content/img/img4-tn.jpg" />
+
+    <div class="section">
+        <input type="text" id="winWidth" placeholder="Width" />
+        <input type="text" id="winHeight" placeholder="Height" />
+    </div>
+
+    <div class="section">
+        <button onclick="changeWindowSize()">
+            Change size
+        </button>
+        <button onclick="goGoogle()">
+            Google.com
+        </button>
+        <button  onclick="goFullScreen()">
+            Go full screen
+        </button>
+    </div>
+
+    <div class="section">
+        <textarea id="txtUrlInfo">
+
+        </textarea>
+    </div>
+</div>
+<script type="text/javascript" src="./content/js/hover.js"></script>
+</body>
+</html>
