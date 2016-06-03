@@ -1,0 +1,57 @@
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#lstColors {
+    float: left;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.col-large {
+    width: 70%;
+}
+
+.col-small {
+    width: 15%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.spacer-bottom {
+    margin-bottom: 30px;
+}
+
+.global-height {
+    heigth: 550px;
+    line-height: 550px;
+    min-height: 550px;
+    max-height: 550px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-slider {
+    width: 75px;
+    height: 75px;
+}
+
+#imageSlider {
+    width: 800px;
+    height: 600px;
+}
+
+.btn-action {
+    height: 40px;
+}

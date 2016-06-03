@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link href="./content/css/index.css" rel="stylesheet" type="text/css" />
+    <title>JS Exam</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <div>
+            <select id="lstColors" onchange="changeBackgroundColor()">
+                <option></option>
+                <option color="yellow">Yellow</option>
+                <option color="green">Green</option>
+                <option color="blue">Blue</option>
+                <option color="red">Red</option>
+            </select>
+        </div>
+
+        <div class="clearfix spacer-bottom"></div>
+
+        <div class="pull-left global-height col-small text-center">
+            <input class="btn-slider" type="button" value="<" onclick="prev()" />
+        </div>
+        <div class="pull-left global-height col-large text-center">
+            <img id="imageSlider" src="" alt="" />
+        </div>
+        <div class="pull-right global-height col-small text-center">
+            <input class="btn-slider" type="button" value=">" onclick="next()" />
+        </div>
+
+        <div class="clearfix spacer-bottom"></div>
+    </div>
+
+    <div class="container">
+        <div class="pull-left global-height col-small text-center">
+            <input class="btn-action" type="button" value="Change style" onclick="toggleBorder()" />
+        </div>
+
+        <div class="pull-right global-height col-small text-center">
+            <input class="btn-action" type="button" value="Change window size" onclick="changeWindowSize()" />
+        </div>
+
+        <div class="clearfix spacer-bottom"></div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="./content/js/index.js"></script>
